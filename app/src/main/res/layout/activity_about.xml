@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smartbingari.tarabastate.About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.smartbingari.tsumobile.AboutApp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/smart"/>
+
+        <TextView
+            android:id="@+id/versionname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taraba State Mobile App v1.0"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Bingari"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="for Feedback, Suggestion or Enquiries Contact"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="12sp"
+            android:paddingTop="12sp"
+            android:paddingStart="8sp"
+            android:paddingLeft="8sp"
+            android:paddingRight="8sp"
+            android:paddingEnd="8sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_email_black_24dp"
+                android:paddingRight="10sp"
+                android:paddingStart="10sp"
+                android:paddingEnd="10sp"
+                android:paddingLeft="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sbingari@gmail.com"
+                android:autoLink="email"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#475fe6"
+            android:paddingBottom="12sp"
+            android:paddingTop="12sp"
+            android:paddingStart="8sp"
+            android:paddingLeft="8sp"
+            android:paddingRight="8sp"
+            android:paddingEnd="8sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:paddingRight="10sp"
+                android:paddingStart="10sp"
+                android:paddingEnd="10sp"
+                android:paddingLeft="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="08177629183"
+                android:autoLink="phone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a3bad4"
+            android:orientation="horizontal"
+            android:paddingBottom="12sp"
+            android:paddingTop="12sp"
+            android:paddingStart="8sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="8sp"
+            android:paddingEnd="8sp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:id="@+id/facebook"
+                android:src="@drawable/facebook"
+                android:paddingRight="8sp"
+                android:paddingEnd="10sp"/>
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:id="@+id/twitter"
+                android:src="@drawable/twitter"
+                android:paddingRight="8sp"
+                android:paddingEnd="10sp"/>
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:id="@+id/messenger"
+                android:src="@drawable/messenger"/>
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:id="@+id/playstore"
+                android:src="@drawable/playstore"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
